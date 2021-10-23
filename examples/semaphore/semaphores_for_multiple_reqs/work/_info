@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/pdtools/work_area/frontend/venkatesh/git/Inter-Process-Communication-Parameterized-functions-tasks-/examples/semaphore/semaphores_for_multiple_reqs
+vmain1
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 A29I]QUoFPd<gH;Im:P:E0
+IN^DoN1h:nkRD;IY0[cA^20
+!s105 semaphores_for_multiple_reqs_sv_unit
+S1
+R0
+w1634915712
+8semaphores_for_multiple_reqs.sv
+Fsemaphores_for_multiple_reqs.sv
+L0 5
+OE;L;10.6c;65
+!s108 1634915725.000000
+!s107 semaphores_for_multiple_reqs.sv|
+!s90 -sv|semaphores_for_multiple_reqs.sv|
+!i113 0
+o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0

@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/pdtools/work_area/frontend/venkatesh/git/Inter-Process-Communication-Parameterized-functions-tasks-/examples/parameter_mailbox_1
+vmain
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1634647306
+!i10b 1
+!s100 L5`9KoX_M2BJEQWNRP?I22
+IPL::[LMJhnMo?TAHO8E`d3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 Parameterized_mailbox_sv_unit
+S1
+R0
+Z4 w1634647304
+Z5 8Parameterized_mailbox.sv
+Z6 FParameterized_mailbox.sv
+L0 129
+Z7 OE;L;10.6c;65
+r1
+!s85 0
+31
+Z8 !s108 1634647306.000000
+Z9 !s107 Parameterized_mailbox.sv|
+Z10 !s90 -sv|Parameterized_mailbox.sv|
+!i113 0
+Z11 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vParameterized_mailbox
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 EM>[^5cla_ScZTa[5KPLK3
+IZM4]cS2oPZeXRn]UkWE]H2
+R3
+S1
+R0
+R4
+R5
+R6
+L0 73
+R7
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@parameterized_mailbox

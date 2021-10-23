@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/pdtools/work_area/frontend/venkatesh/git/Inter-Process-Communication-Parameterized-functions-tasks-/examples/trigger_
+vtb
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 k?:<LJPcY8kJJPjDD28_;1
+I]CC=n>Pg^j6g6F=?W501=1
+!s105 How_to_trigger_and_wait_for_an_event_sv_unit
+S1
+R0
+w1634913392
+8How_to_trigger_and_wait_for_an_event.sv
+FHow_to_trigger_and_wait_for_an_event.sv
+L0 6
+OE;L;10.6c;65
+!s108 1634963500.000000
+!s107 How_to_trigger_and_wait_for_an_event.sv|
+!s90 -sv|How_to_trigger_and_wait_for_an_event.sv|
+!i113 0
+o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0

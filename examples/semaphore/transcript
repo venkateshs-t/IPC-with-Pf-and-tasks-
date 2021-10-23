@@ -1,0 +1,55 @@
+# vsim -novopt work.main -c -do "log -r /*; add wave -r /*; run -all;" -wlf waveform.wlf 
+# Start time: 21:07:38 on Oct 19,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Refreshing /pdtools/work_area/frontend/venkatesh/git/Inter-Process-Communication-Parameterized-functions-tasks-/examples/semaphore/work.main
+# Loading sv_std.std
+# Loading work.main
+# log -r /*
+# (vish-4014) No objects found matching '/*'.
+#  add wave -r /*
+# (vish-4014) No objects found matching '/*'.
+#  run -all
+#                    0	 1: Waiting for key
+#                    0	 1: Got the Key
+#                    0	 2: Waiting for Key
+#                    0	 2: Got the Key
+#                    0	 3: Waiting for Key
+#                    0	 3: Not Got the Key --> Performing other operation
+#                   10	 1: Returning back key 
+#                   10	 PROCESS 1 >>> COMPLETED
+#                   10	 2: Returning back key 
+#                   10	 PROCESS 2 >>> COMPLETED
+#                   10	 3: Got the Key
+#                   20	 3: Returning back key 
+#                   20	 PROCESS 3 >>> COMPLETED
+#                   20	 1: Waiting for key
+#                   20	 1: Got the Key
+#                   20	 2: Waiting for Key
+#                   20	 2: Got the Key
+#                   20	 3: Waiting for Key
+#                   20	 3: Not Got the Key --> Performing other operation
+#                   30	 1: Returning back key 
+#                   30	 PROCESS 1 >>> COMPLETED
+#                   30	 2: Returning back key 
+#                   30	 PROCESS 2 >>> COMPLETED
+#                   30	 3: Got the Key
+#                   40	 3: Returning back key 
+#                   40	 PROCESS 3 >>> COMPLETED
+#                  140	 END of Processes
+# 
+# End time: 21:07:46 on Oct 19,2021, Elapsed time: 0:00:08
+# Errors: 2, Warnings: 1

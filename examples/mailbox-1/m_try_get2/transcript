@@ -1,0 +1,48 @@
+# vsim -novopt work.mailbox_ex -c -do "log -r /*; add wave -r /*; run -all;" -wlf waveform.wlf 
+# Start time: 21:50:43 on Oct 19,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Refreshing /pdtools/work_area/frontend/venkatesh/git/Inter-Process-Communication-Parameterized-functions-tasks-/examples/mailbox-1/m_try_get2/work.mailbox_ex
+# Refreshing /pdtools/work_area/frontend/venkatesh/git/Inter-Process-Communication-Parameterized-functions-tasks-/examples/mailbox-1/m_try_get2/work.m_try_get2_sv_unit
+# Loading sv_std.std
+# Loading work.m_try_get2_sv_unit
+# Loading work.mailbox_ex
+# ** Warning: (vsim-3764) m_try_get2.sv(67): Stand-alone call to function 'try_get' treated as implicit void cast.
+#    Time: 0 ns  Iteration: 0  Region: /m_try_get2_sv_unit File: m_try_get2.sv
+# log -r /*
+# (vish-4014) No objects found matching '/*'.
+#  add wave -r /*
+# (vish-4014) No objects found matching '/*'.
+#  run -all
+# -------------------try_get--------------------
+# Packet::Packet Generated
+# Packet::Addr=235,Data=80
+# Gen:data items in mailbox:0
+# Generator::Packet NOT Put into Mailbox
+# Driver::trying to get the pkt
+# Drv:data items in mailbox:0
+# Driver::unable to recive any pkt
+# Driver::trying to get the pkt
+# Drv:data items in mailbox:0
+# Driver::unable to recive any pkt
+# Packet::Packet Generated
+# Packet::Addr=80,Data=215
+# Gen:data items in mailbox:0
+# Generator::Packet NOT Put into Mailbox
+# --------------------try_get--------------------
+# 
+# End time: 21:50:53 on Oct 19,2021, Elapsed time: 0:00:10
+# Errors: 2, Warnings: 2
