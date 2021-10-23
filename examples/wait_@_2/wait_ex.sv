@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------------------------------
   initial 
   begin
-    $display("@%0t:thread2:Waiting for the trigger",$time);
+    $display("@%0t:thread2:Waiting for the event at 20ns",$time);
     #20 @(e1);
     $display("@%0t:thread2:Received event1 Triggered",$time);
   end
@@ -26,7 +26,7 @@
 //--------------------------------------------------------------------------------------------
   initial 
   begin
-    $display("@%0t:thread3:Waiting for the trigger",$time);
+    $display("@%0t:thread3:Waiting for the event at 20ns",$time);
     #20 wait(e1.triggered);
     $display("@%0t:thread3:Received event1 Triggered",$time);
   end

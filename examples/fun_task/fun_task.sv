@@ -48,12 +48,13 @@ endclass
 
   assign encoder_in = 8'b1000_0000;
   assign decoder_in = 2'b11;
-
+  `define venkatesh 5
 // Encoder and Decoder Function calls
-
+ parameter size = 8;
+ parameter size_new = `venkatesh + size;
   assign encoder_out = C#(8)::ENCODER_f(encoder_in);
   assign decoder_out = C#(4)::DECODER_f(decoder_in);
-
+//pre compila
 initial begin
 #50;
   $display("---------encoder&decoder-------------------");  

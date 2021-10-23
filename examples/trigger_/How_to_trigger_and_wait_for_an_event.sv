@@ -20,7 +20,7 @@ module tb;
 //--------------------------------------------------------------------------------------------
   initial
   begin
-    $display("@%0t:thread2:Waiting for the trigger",$time);
+    $display("@%0t:thread2:Waiting for the event at 20ns",$time);
     @(e1);
     $display("@%0t:thread2:Received event1 Triggered",$time);
   end
@@ -29,7 +29,7 @@ module tb;
 //--------------------------------------------------------------------------------------------
   initial
   begin
-    $display("@%0t:thread3:Waiting for the trigger",$time);
+    $display("@%0t:thread3:Waiting for the event at 20ns",$time);
     wait(e1.triggered);
     $display("@%0t:thread3:Received event1 Triggered",$time);
   end

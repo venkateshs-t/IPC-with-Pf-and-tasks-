@@ -1,5 +1,5 @@
 # vsim -novopt work.tb -c -do "log -r /*; add wave -r /*; run -all;" -wlf waveform.wlf 
-# Start time: 20:21:44 on Oct 22,2021
+# Start time: 23:22:41 on Oct 22,2021
 # ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
 # //  Questa Sim
 # //  Version 10.6c linux Jul 25 2017
@@ -15,7 +15,7 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# Refreshing /pdtools/work_area/frontend/venkatesh/git/Inter-Process-Communication-Parameterized-functions-tasks-/examples/merging_event/work.tb
+# Refreshing /hwetools/work_area/frontend/venkatesh/IPC/IPC-with-Pf-and-tasks-/examples/merging_event/work.tb
 # Loading sv_std.std
 # Loading work.tb
 # log -r /*
@@ -23,5 +23,5 @@
 #  run -all
 # @30:T1:Wait for event1 is over
 # 
-# End time: 20:21:49 on Oct 22,2021, Elapsed time: 0:00:05
+# End time: 23:23:24 on Oct 22,2021, Elapsed time: 0:00:43
 # Errors: 0, Warnings: 1
